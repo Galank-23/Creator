@@ -587,15 +587,15 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        galank.sendText(op.param1, "Ketahuan " + "▶️ " + Name + " ◀️" + "\nNgintip Aja Niih. . .\nChat Kek Idiih   ")
+                                        galank.sendText(op.param1, "Ketahuan " + "『 " + Name + " 』" + "\nNgintip Aja Niih. . .\nChat Kek Idiih   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                     else:
-                                        galank.sendText(op.param1, "Haii " + "▶️ " + Name + " ◀️" + "\nBetah Banget Jadi Penonton. . .\nChat Napa kak   ")
+                                        galank.sendText(op.param1, "Haii " + "『 " + Name + " 』" + "\nBetah Banget Jadi Penonton. . .\nChat Napa kak   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                 else:
-                                    galank.sendText(op.param1, "Nah " + "▶️ " + Name + " ◀️" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
+                                    galank.sendText(op.param1, "Nah " + "『 " + Name + " 』" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
                                     time.sleep(0.2)
                                     summon(op.param1,[op.param2])
                         else:
