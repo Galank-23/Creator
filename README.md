@@ -1,5 +1,7 @@
 COMMAND VIA TERMUX
+
 SELFBOT PYTHON2
+
 ●══════════════════●
 pkg install python2 -y
 
@@ -36,9 +38,13 @@ git clone https://github.com/GalankCreator/Creator
 ●Ketik -> cd Creator
 
 ●Ketik -> python Selfbot.py
+
 ●══════════════════●
+
 Cara Menjalankan Bot Kembali :
+
 ●══════════════════●
+
 ●Ketik -> cd Creator
 
 ●Ketik -> python Selfbot.py
