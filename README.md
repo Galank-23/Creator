@@ -3,6 +3,7 @@ COMMAND VIA TERMUX
 SELFBOT PYTHON2
 
 ●══════════════════●
+
 pkg install python2 -y
 
 pkg install nano -y
