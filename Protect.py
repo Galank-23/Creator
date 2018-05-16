@@ -1,190 +1,183 @@
 # -*- coding: utf-8 -*-
 #Tolong Jangan Ganti Creator Hargai Yang Membuat
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+
+import Galank07
+from Galank07.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,tempfile,glob,shutil,unicodedata,goslate
 from gtts import gTTS
 
 
-cl = LINETCR.LINE()
+cl = Galank07.LINE()
 cl.login(token="EopxlGUaTxY2kBlfN9A0.1InGNGZn7NNY7fUrZGx9ua.UfOImWIBt/YBH9Tvw3k0vF0OhteAZK0jMGOfjrGNNXY=")
 cl.loginResult()
 
-kt = LINETCR.LINE()
+kt = Galank07.LINE()
 kt.login(token="EogZ0YwAI3By9i6jjTt7.avnzqOTQntgFkB+/jodCLW.TBt5qQXQ7xq+CCXsfpwxfyMLyrYqChOfb4qwZvsFeIo=")
 kt.loginResult()
 
-ks = LINETCR.LINE()
+ks = Galank07.LINE()
 ks.login(token="EopP5w83zP4ByTmx1pV3.A+SYHpfmOT4uDbrwN7S4CW.93i0kpsFakakyrHmncNPW0/AUvZ0iHHZKLqXGcdE9m0=")
 ks.loginResult()
 
-ki = LINETCR.LINE()
+ki = Galank07.LINE()
 ki.login(token="Eofcf0oFHyS2YkfaOwYa.sInuoTkVfNhUjQU4KarLUG.8Gn5ev51r7L++XIPqOyAX3J7jkNhCF0O9DUPq3v88c8=")
 ki.loginResult()
 
-kk = LINETCR.LINE()
+kk = Galank07.LINE()
 kk.login(token="EonpavFuyNA4Maz85kSe.8OCv7eAgFOIywa6B/lsWlG.Rwgb1KZ8f9ywfcd13XyuQN4h/i3y3E73g9dhMcG8ZV0=")
 kk.loginResult()
 
-kc = LINETCR.LINE()
+kc = Galank07.LINE()
 kc.login(token="EoLmyQch90U9NioyEMS0.B8vxriASm6+uB38nHjfgma.kZv2yQAVwGz0rS3MR8D1SI9Z7vCVGC4bwWZ7JfD3+0o=")
 kc.loginResult()
 
-kl = LINETCR.LINE()
+kl = Galank07.LINE()
 kl.login(token="EoTlS5nksaNWhxHL5OSb.jd1h+vbUYLjvszUFzf1zwW.99ylTDgq3Ck4B9f+8014YtjbScma7iNkk0k6TGZAgsQ=")
 kl.loginResult()
 
-print "=============SHINGAMI-TEAM============="
+print "╔═════════════\n╠➣LOGIN SUCCESS\n╚═════════════\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\nTΣΔM SLΔCҜβΩT\n✍͡➴͜Ĝα₤αηĸ͜͡✫"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage= """ ╔═══════════════════
-╠ 
-╠     ✍️Public Command✍️
-╠ 
-╠❂͜͡➣ Lyric [][]
-╠❂͜͡➣ Music [][]
-╠❂͜͡➣ Wiki [text]
-╠❂͜͡➣ Vidio [text]
-╠❂͜͡➣ Youtube [text]
-╠❂͜͡➣ Instagram [text]
-╠❂͜͡➣ Translate-idn [text]
-╠❂͜͡➣ Translate-eng [text]
-╠❂͜͡➣ Translate-thai [text]
-╠❂͜͡➣ Translate-japan [text]
-╠❂͜͡➣ Lurking
-╠❂͜͡➣ Lurking result
-╠❂͜͡➣ Setlastpoint
-╠❂͜͡➣ Viewlastseen
-╠❂͜͡➣ Ping
-╠❂͜͡➣ Time
-╠❂͜͡➣ apakah]
-╠❂͜͡➣ Tagall
-╠❂͜͡➣ /say
-╠❂͜͡➣ /say-en
-╠❂͜͡➣ /say-jp
-╠❂͜͡➣ Dosa @
-╠❂͜͡➣ /
-╠❂͜͡➣ Siapa
-╠❂͜͡➣ Respon
-╠ 
-╠ 回 Command For Admin & Owner 回
-╠ 回Help0 (Invite Bot & Keluarin Bot)回
-╠ 回Help1 (Protect Grups)回
-╠ 回Help2 (Kicker Commands)回
-╠ 回Help3 (System Commands)回
-╠ 
-╠ 回 Command For Owner 回
-╠ 回Help4 (Setting Bot)回
-╠ 回Help5 (Broadcast Commands)回
-╠ 
-╠ Creator by : Muhammad Fahmi Ridhani
-╠ Link : http://line.me/ti/p/~fahmi_077
-╠ 
+helpMessage= """
+╔═══════════════════
+╠ Public Command
+╠═══════════════════ 
+╠➣ Lyric [judul][text]
+╠➣ Music [judul][text]
+╠➣ Wiki [text]
+╠➣ Vidio [text]
+╠➣ Youtube [text]
+╠➣ Instagram [text]
+╠➣ Translate-idn [text]
+╠➣ Translate-eng [text]
+╠➣ Translate-thai [text]
+╠➣ Translate-japan [text]
+╠➣ Lurking
+╠➣ Lurking result
+╠➣ Setlastpoint
+╠➣ Viewlastseen
+╠➣ Ping
+╠➣ Time
+╠➣ apakah]
+╠➣ Tagall
+╠➣ /say
+╠➣ /say-en
+╠➣ /say-jp
+╠➣ Dosa @
+╠➣ /
+╠➣ Siapa
+╠➣ Respon
+╠═══════════════════
+╠ Command Admin & Owner
+╠═══════════════════
+╠Help0 (Invite Bot & Keluarin Bot)
+╠Help1 (Protect Grups)
+╠Help2 (Kicker Commands)
+╠Help3 (System Commands)
+╠══════════════════ 
+╠ Command Owner 
+╠══════════════════
+╠Help4 (Setting Bot)
+╠Help5 (Broadcast Commands)
 ╚═══════════════════
 """
 
-helpinvite= """╔═══════════════════
-╠
-╠     ✤INVITE BOT COMMANDS✤
-╠
-╠回 Join all [Untuk Memanggil Semua Asist]
-╠回 Bye [Untuk Mengeluarkan Semua Asist]
-╠回 Kiker join [Untuk Memanggil Bot Kicker]
-╠回 Kiker out [Mengeluarkan Bot Kicker]
-╠回 Bye all [Untuk Mengeluarkan Semua Bot]
-╠回 Bot the end [Command for Creator]
-╠
+helpinvite= """
+╔══════════════════
+╠ BOT COMMAND
+╠══════════════════
+╠Join all [Untuk Memanggil Semua Asist]
+╠Bye [Untuk Mengeluarkan Semua Asist]
+╠Kiker join [Untuk Memanggil Bot Kicker]
+╠Kiker out [Mengeluarkan Bot Kicker]
+╠Bye all [Untuk Mengeluarkan Semua Bot]
+╠Bot the end [Command for Creator]
 ╚═══════════════════
 
 """
 
-helppro= """╔═══════════════════
-╠
-╠     ✍️PROTECT COMMANDS✍
-╠️
-╠回 Protect:low
-╠回 Protect:hight
-╠回 Protect:on
-╠回 Protect:off
-╠回 Protectqr:on
-╠回 Protectqr:off
-╠回 Blockinvite:on
-╠回 Blockinvite:off
-╠
+helppro= """
+╔═══════════════════
+╠ PROTECT COMMAND
+╠️═══════════════════
+╠Protect:low
+╠Protect:hight
+╠Protect:on
+╠Protect:off
+╠Protectqr:on
+╠Protectqr:off
+╠Blockinvite:on
+╠Blockinvite:off
 ╚═══════════════════
 
 """
 
-helpkick= """╔═══════════════════
-╠
-╠     ✤KICKER COMMANDS✤
-╠
-╠回 Nk [Tag Target]
-╠回 Vkick [Tag Target]
-╠回 Cleanse
-╠回 Ban [Tag Target]
-╠回 Unban [Tag Target]
-╠回 Ban:on [Send Contact]
-╠回 Unban:on [Send Contact]
-╠
+helpkick= """
+╔═══════════════════
+╠ KICKER COMMAND
+╠═══════════════════
+╠Nk [Tag Target]
+╠Vkick [Tag Target]
+╠Cleanse
+╠Ban [Tag Target]
+╠Unban [Tag Target]
+╠Ban:on [Send Contact]
+╠Unban:on [Send Contact]
 ╚═══════════════════
 
 """
 
-helpsystem= """╔═══════════════════
-╠
-╠     ✤SYSTEM COMMANDS✤
-╠
-╠回 Runtime
-╠回 System
-╠回 Iconfig
+helpsystem= """
+╔═══════════════════
+╠ SYSTEM COMMAND
+╠═══════════════════
+╠Runtime
+╠System
+╠Iconfig
 ╠回 Kernel
-╠回 Cpu
-╠回 Speed
-╠回 Bot restart
-╠回 Clear invites [Cancel Undangan Group]
-╠回 Settings
-╠回 link open [Untuk Membuka Url]
-╠回 link close [Untuk Menutup URL]
-╠回 Gurl [Untuk Melihat Url Group]
-╠回 Admin on [Tag Target]
-╠回 Admin off [Tag Target]
-╠回 Owner on [Tag Target]
-╠回 Owner off [Tag Target]
-╠
+╠Cpu
+╠Speed
+╠Bot restart
+╠Clear invites [Cancel Undangan Group]
+╠Settings
+╠link open [Untuk Membuka Url]
+╠link close [Untuk Menutup URL]
+╠Gurl [Untuk Melihat Url Group]
+╠Admin on [Tag Target]
+╠Admin off [Tag Target]
+╠Owner on [Tag Target]
+╠Owner off [Tag Target]
 ╚═══════════════════
 
 """
 
-helpsetting= """╔═══════════════════
-╠
-╠     ✤SETTING BOT COMMANDS✤
-╠
-╠回 Bot1 rename:[text]
-╠回 Bot2 rename:[text]
-╠回 Bot3 rename:[text]
-╠回 Bot4 rename:[text]
-╠回 Bot5 rename:[text]
-╠回 Bot6 rename:[text]
-╠回 Bot7 rename:[text]
-╠回 All rename:
-╠回 Allbio:
-╠回 Restore
-╠
+helpsetting= """
+╔═══════════════════
+╠ SETTING BOT COMMAND
+╠═══════════════════
+╠Bot1 rename:[text]
+╠Bot2 rename:[text]
+╠Bot3 rename:[text]
+╠Bot4 rename:[text]
+╠Bot5 rename:[text]
+╠Bot6 rename:[text]
+╠Bot7 rename:[text]
+╠All rename:
+╠Allbio:
+╠Restore
 ╚═══════════════════
 
 """
 
-helpbc= """╔═══════════════════
-╠
-╠     ✍️BROADCASTING✍️
-╠
-╠❂͜͡➣ Pm cast   [text]
-╠❂͜͡➣ Broadcast [text]
-╠
+helpbc= """
+╔═══════════════════
+╠ BROADCASTING
+╠═══════════════════
+╠➣Pm cast   [text]
+╠➣Broadcast [text]
 ╚═══════════════════
 """
 KAC=[ki,kk,kc,ks,kt]
@@ -205,9 +198,9 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"ud7a8fbcc2af037c2c5bf181b89fda5f7","ue027db6fbfa316a7ec28ed8d2cc2757d"]
-admin = ["ud7a8fbcc2af037c2c5bf181b89fda5f7","ue027db6fbfa316a7ec28ed8d2cc2757d"]
-owner = ["ud7a8fbcc2af037c2c5bf181b89fda5f7","ue027db6fbfa316a7ec28ed8d2cc2757d"]
-creator=["ud7a8fbcc2af037c2c5bf181b89fda5f7"]
+admin = ["MID ADMIN"]
+owner = ["MID OWNER"]
+creator=["MID CREATOR"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -217,7 +210,7 @@ wait = {
     'autoAdd':True,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by Joker-тєαм",
+    "comment":"AutoLike by TΣΔM SLΔCҜβΩT CΩMMΔΠD",
     "welmsg":" welcome to group ",
     "commentOn":True,
     "commentBlack":{},
@@ -788,7 +781,7 @@ def bot(op):
                         kicker.kickoutFromGroup(op.param1,[op.param2])
                         G.preventJoinByTicket = True
                         kicker.updateGroup(G)
-                        cl.sendText(op.param1,"please do not open link group-_-")
+                        cl.sendText(op.param1,"jangan buka code qr geoup sayang")
                         c = Message(to=op.param1, from_=None, text=None, contentType=13)
                         c.contentMetadata={'mid':op.param2}
                         cl.sendMessage(c)
@@ -808,7 +801,7 @@ def bot(op):
                         kicker.kickoutFromGroup(op.param1,[op.param2])
                         G.preventJoinByTicket = True
                         kicker.updateGroup(G)
-                        cl.sendText(op.param1,"please do not open link group-_-")
+                        cl.sendText(op.param1,"please do not open link group")
                         c = Message(to=op.param1, from_=None, text=None, contentType=13)
                         c.contentMetadata={'mid':op.param2}
                         cl.sendMessage(c)
@@ -843,7 +836,7 @@ def bot(op):
                     if G is not None:
                         gInviMids = [contact.mid for contact in G.invitee]
                         kicker.cancelGroupInvitation(op.param1, gInviMids)
-                        cl.sendText(op.param1,"you are prohibited from inviting-_-")
+                        cl.sendText(op.param1,"you are prohibited from inviting")
                         c = Message(to=op.param1, from_=None, text=None, contentType=13)
                         c.contentMetadata={'mid':op.param2}
                         cl.sendMessage(c)
@@ -1826,7 +1819,7 @@ def bot(op):
                 gs = cl.getGroupIdsJoined()
                 L = "『 Groups List 』\n"
                 for i in gs:
-                    L += "[≫] %s \n" % (cl.getGroup(i).name + " | [ " + str(len (cl.getGroup(i).members)) + " ]")
+                    L += "╠➣ %s \n" % (cl.getGroup(i).name + " | [ " + str(len (cl.getGroup(i).members)) + " ]")
                 cl.sendText(msg.to, L + "\nTotal Group : [ " + str(len(gs)) +" ]")
  
             elif "Invite me" in msg.text:
@@ -1863,9 +1856,9 @@ def bot(op):
 #Tolong Jangan Ganti mid CreatorNya Hargai Saya yang membuat!!!#
             elif msg.text in ["Creator"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'ud7a8fbcc2af037c2c5bf181b89fda5f7'}
+                msg.contentMetadata = {'mid': 'u78643d09e42a36836a17cc918963a8b7'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to,"Contact for Creator")
+                cl.sendText(msg.to,"Creator Majikan Kami\n╔═════════════\n╠➣『✍͡➴͜Ĝα₤αηĸ͜͡✫』\n╚═════════════")
             elif "Admin on @" in msg.text:
                 if msg.from_ in owner:
                     print "[Command]Staff add executing"
@@ -1898,10 +1891,10 @@ def bot(op):
                         mc = ""
                         gh = ""
                         for mi_d in owner:
-                            mc += "->" +cl.getContact(mi_d).displayName + "\n"
+                            mc += "●" +cl.getContact(mi_d).displayName + "\n"
 		        for mi_d in admin:
-			    gh += "->" +cl.getContact(mi_d).displayName + "\n"				
-                        cl.sendText(msg.to,"=======OWNER=======\n\n" + mc + "\n=======ADMIN=======\n\n" + gh +"\n=====================\n")
+			    gh += "●" +cl.getContact(mi_d).displayName + "\n"				
+                        cl.sendText(msg.to,"●══════●OWNER●══════●\n\n" + mc + "\n●══════●ADMIN●══════●\n\n" + gh +"\n╚═════════════\n")
                         print "[Command]Stafflist executed"
             elif "Admin off @" in msg.text:
                 if msg.from_ in owner:
@@ -2895,7 +2888,7 @@ def bot(op):
                     else:
                         mc = ""
                         for gid in wait["BlGroup"]:
-                            mc += "-> " +cl.getGroup(gid).name + "\n"
+                            mc += "➣ " +cl.getGroup(gid).name + "\n"
                         ki.sendText(msg.to,"===[Ban Group]===\n"+mc)
 		else:
 		    cl.sendText(msg.to, "Khusus Admin")
@@ -3747,7 +3740,7 @@ def bot(op):
 					bctxt = msg.text.replace("Broadcast ", "")
 					n = cl.getGroupIdsJoined()
 					for manusia in n:
-						cl.sendText(manusia,("======[BROADCAST]======\n"+ bctxt +"\n\n\nbroadcasted by:" + cl.getContact(msg.from_).displayName))
+						cl.sendText(manusia,("●══════●[BROADCAST]●══════●\n"+ bctxt +"\n\n\nbroadcasted by:" + cl.getContact(msg.from_).displayName))
 										 
 #========================================
             elif msg.text.lower() == 'join all':
