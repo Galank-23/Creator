@@ -137,7 +137,7 @@ helpsystem= """
 ╠Runtime
 ╠System
 ╠Iconfig
-╠回 Kernel
+╠Kernel
 ╠Cpu
 ╠Speed
 ╠Bot restart
