@@ -1,6 +1,6 @@
 COMMAND VIA TERMUX
 
-SELFBOT PYTHON2
+PROTECT PYTHON2
 
 ●══════════════════●
 
@@ -38,7 +38,7 @@ git clone https://github.com/GalankCreator/Creator
 
 ●Ketik -> cd Creator
 
-●Ketik -> python Selfbot.py
+●Ketik -> python Protect.py
 
 ●══════════════════●
 
@@ -48,11 +48,11 @@ Cara Menjalankan Bot Kembali :
 
 ●Ketik -> cd Creator
 
-●Ketik -> python Selfbot.py
+●Ketik -> python Protect.py
 
 THANKS TO:
 
-●тєαм ѕℓα¢ĸвσт●
+TΣΔM SLΔCҜβΩT
 
 ADD ME LINE : fuck.you__
 
