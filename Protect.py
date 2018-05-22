@@ -1,40 +1,40 @@
 # -*- coding: utf-8 -*-
 #Tolong Jangan Ganti Creator Hargai Yang Membuat
 
-import Galank07
-from Galank07.lib.curve.ttypes import *
+import SLACKBOT
+from SLACKBOT.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,tempfile,glob,shutil,unicodedata,goslate
 from gtts import gTTS
 
 
-cl = Galank07.LINE()
+cl = SLACKBOT.LINE()
 cl.login(token="Etmo5LrrUTjOR1K2muke.wvhydD8HlswGsvWpinOaVG.aHWQNCE5Za2JtFMBK2YHg7IAsp36Z01a0bPCFcjzAPk=")
 cl.loginResult()
 
-kt = Galank07.LINE()
+kt = SLACKBOT.LINE()
 kt.login(token="Etn2KfMhJQgvE1ug6KBa.3svWLda5Jb1maVIdRVif6G.lgb9ON9bmKOlYu82dF0c/AoJBl2eHdbzZpqLTdYo3EM=")
 kt.loginResult()
 
-ks = Galank07.LINE()
+ks = SLACKBOT.LINE()
 ks.login(token="EtoViAmEfIVPB0wzSv83.eYIoClpI2sl2hRSJw7q6SW.ENWcN+AlMzDtjf8pAiZ5f6QHEYFTOi/AWCxU9XFa//4=")
 ks.loginResult()
 
-ki = Galank07.LINE()
+ki = SLACKBOT.LINE()
 ki.login(token="EtV9c34CNjmpTroO8AY8.LetmZ3b3S8xsvXte6ExxAa.dh9ZLSr8TQtGw1I3qZBCIshg056Upf8uqDCY/SpE1JA=")
 ki.loginResult()
 
-kk = Galank07.LINE()
-kk.login(token="")
+kk = SLACKBOT.LINE()
+kk.login(token="Eta3ufge46B7Xai6eSXa.WQ7xJwYTy17gLrjSzVBpMG.lvH5/Z60YNuvBZF4vtpnU9IJOU/hHipXxbbI6/ep3IQ=")
 kk.loginResult()
 
-kc = Galank07.LINE()
-kc.login(token="")
+kc = SLACKBOT.LINE()
+kc.login(token="EtnqdDINxFC1V55dyui8.yShUITzJjuINW9CsoWQVca.yMsvQC9J9iaSVbNDZ0EqWEhpA48m59OnMrYDTL4XwqQ=")
 kc.loginResult()
 
-kl = Galank07.LINE()
-kl.login(token="")
+kl = SLACKBOT.LINE()
+kl.login(token="EtVqAeC6JkSvvhyTXq91.ccBRnlJ52qxGddbmnGz+iq.npAJxCC0vRUen5ui/NgxGv2X8cUooSstYn8N0DbUWKE=")
 kl.loginResult()
 
 print "╔═════════════\n╠➣LOGIN SUCCESS\n╚═════════════\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\nTΣΔM SLΔCҜβΩT\n✍͡➴͜Ĝα₤αηĸ͜͡✫"
