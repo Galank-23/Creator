@@ -18,11 +18,11 @@ kt.login(token="Etn2KfMhJQgvE1ug6KBa.3svWLda5Jb1maVIdRVif6G.lgb9ON9bmKOlYu82dF0c
 kt.loginResult()
 
 ks = Galank07.LINE()
-ks.login(token="")
+ks.login(token="EtoViAmEfIVPB0wzSv83.eYIoClpI2sl2hRSJw7q6SW.ENWcN+AlMzDtjf8pAiZ5f6QHEYFTOi/AWCxU9XFa//4=")
 ks.loginResult()
 
 ki = Galank07.LINE()
-ki.login(token="")
+ki.login(token="EtV9c34CNjmpTroO8AY8.LetmZ3b3S8xsvXte6ExxAa.dh9ZLSr8TQtGw1I3qZBCIshg056Upf8uqDCY/SpE1JA=")
 ki.loginResult()
 
 kk = Galank07.LINE()
