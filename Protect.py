@@ -10,31 +10,31 @@ from gtts import gTTS
 
 
 cl = Galank07.LINE()
-cl.login(token="EopxlGUaTxY2kBlfN9A0.1InGNGZn7NNY7fUrZGx9ua.UfOImWIBt/YBH9Tvw3k0vF0OhteAZK0jMGOfjrGNNXY=")
+cl.login(token="Etmo5LrrUTjOR1K2muke.wvhydD8HlswGsvWpinOaVG.aHWQNCE5Za2JtFMBK2YHg7IAsp36Z01a0bPCFcjzAPk=")
 cl.loginResult()
 
 kt = Galank07.LINE()
-kt.login(token="EogZ0YwAI3By9i6jjTt7.avnzqOTQntgFkB+/jodCLW.TBt5qQXQ7xq+CCXsfpwxfyMLyrYqChOfb4qwZvsFeIo=")
+kt.login(token="Etn2KfMhJQgvE1ug6KBa.3svWLda5Jb1maVIdRVif6G.lgb9ON9bmKOlYu82dF0c/AoJBl2eHdbzZpqLTdYo3EM=")
 kt.loginResult()
 
 ks = Galank07.LINE()
-ks.login(token="EopP5w83zP4ByTmx1pV3.A+SYHpfmOT4uDbrwN7S4CW.93i0kpsFakakyrHmncNPW0/AUvZ0iHHZKLqXGcdE9m0=")
+ks.login(token="")
 ks.loginResult()
 
 ki = Galank07.LINE()
-ki.login(token="Eofcf0oFHyS2YkfaOwYa.sInuoTkVfNhUjQU4KarLUG.8Gn5ev51r7L++XIPqOyAX3J7jkNhCF0O9DUPq3v88c8=")
+ki.login(token="")
 ki.loginResult()
 
 kk = Galank07.LINE()
-kk.login(token="EonpavFuyNA4Maz85kSe.8OCv7eAgFOIywa6B/lsWlG.Rwgb1KZ8f9ywfcd13XyuQN4h/i3y3E73g9dhMcG8ZV0=")
+kk.login(token="")
 kk.loginResult()
 
 kc = Galank07.LINE()
-kc.login(token="EoLmyQch90U9NioyEMS0.B8vxriASm6+uB38nHjfgma.kZv2yQAVwGz0rS3MR8D1SI9Z7vCVGC4bwWZ7JfD3+0o=")
+kc.login(token="")
 kc.loginResult()
 
 kl = Galank07.LINE()
-kl.login(token="EoTlS5nksaNWhxHL5OSb.jd1h+vbUYLjvszUFzf1zwW.99ylTDgq3Ck4B9f+8014YtjbScma7iNkk0k6TGZAgsQ=")
+kl.login(token="")
 kl.loginResult()
 
 print "╔═════════════\n╠➣LOGIN SUCCESS\n╚═════════════\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\nTΣΔM SLΔCҜβΩT\n✍͡➴͜Ĝα₤αηĸ͜͡✫"
@@ -180,7 +180,7 @@ helpbc= """
 ╠➣Broadcast [text]
 ╚═══════════════════
 """
-KAC=[ki,kk,kc,ks,kt]
+KAC=[cl,kt,ks,ki,kk,kc,kl]
 DET=[cl]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -197,10 +197,10 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"ud7a8fbcc2af037c2c5bf181b89fda5f7","ue027db6fbfa316a7ec28ed8d2cc2757d"]
-admin = ["MID ADMIN"]
-owner = ["MID OWNER"]
-creator=["MID CREATOR"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"u5951d80ddf212d25a0495c0f20da00be","udd25709430398c1d4c02f883aef205ea"]
+admin = ["u78643d09e42a36836a17cc918963a8b7"]
+owner = ["u78643d09e42a36836a17cc918963a8b7"]
+creator=["u78643d09e42a36836a17cc918963a8b7"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -210,7 +210,7 @@ wait = {
     'autoAdd':True,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by TΣΔM SLΔCҜβΩT CΩMMΔΠD",
+    "comment":"AutoLike by TΣΔM SLΔCҜβΩT",
     "welmsg":" welcome to group ",
     "commentOn":True,
     "commentBlack":{},
